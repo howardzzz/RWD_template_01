@@ -1,0 +1,20 @@
+/* Scss Document */
+@import"color";
+@import"reset";
+
+header{
+	height: 10vh; display: block;
+	h1{
+		color: $color;
+		text-align: center;
+		font-size: 5em;
+	}
+}
+h1{}
+body{background-image:url(../img/03.jpg); background-attachment: fixed; background-size: cover;}
+div{background: #fff;}
+dl{
+	text-align: center;
+	dt{text-align: center; font-size: 30px;}
+	dd{width: 20.5vw; display:inline-block; background: #FF0; margin: 10px 0; padding: 2em;}
+}
